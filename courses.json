@@ -1,0 +1,129 @@
+{
+    "topics":[
+    [
+        {
+          "mainSubject":"web development"
+        },
+        {
+            "subject":"html",
+            "lessons":[
+  "HTML Boilerplate",
+  "Head Metadata",
+  "Text Basics",
+  "Formatting",
+  "lists",
+  "links",
+  "images",
+  "tables",
+  "forms",
+  "input types",
+  "labels & selects",
+  "buttons",
+  "containers (div & span)",
+  "semantic HTML",
+  "attributes (id & class)",
+  "multimedia",
+  "entities",
+  "seo & accessibility"
+]
+        },
+        {
+            "subject":"css",
+            "lessons":[
+  "Selectors (Type, Class, ID)",
+  "The Box Model (Margin, Border, Padding)",
+  "Colors and Backgrounds",
+  "Typography (Fonts, Size, Weight)",
+  "Text Alignment & Decoration",
+  "Units (px, em, rem, %)",
+  "The Display Property (Block, Inline, Flex)",
+  "Positioning (Static, Relative, Absolute, Fixed)",
+  "Flexbox Layout",
+  "CSS Grid Layout",
+  "Pseudo-classes (:hover, :active, :nth-child)",
+  "Pseudo-elements (::before, ::after)",
+  "Transitions and Animations",
+  "Media Queries (Responsive Design)",
+  "CSS Variables (Custom Properties)",
+  "Specificity and Inheritance",
+  "Z-index and Layering",
+  "Forms & Input Styling"
+]
+        },
+         {
+            "subject":"javascript",
+            "lessons":[
+  "Variables (let, const, var)",
+  "Data Types (String, Number, Boolean)",
+  "Basic Operators & Expressions",
+  "Template Literals (Backticks)",
+  "Conditional Statements (if/else, switch)",
+  "Arrays & Array Methods (push, pop, shift)",
+  "Loops (for, while, forEach)",
+  "Functions & Arrow Functions",
+  "Objects & Bracket Notation",
+  "DOM Selection (querySelector, getElementById)",
+  "Event Listeners (click, input, submit)",
+  "DOM Manipulation (textContent, innerHTML, style)",
+  "Scope (Global vs Local)",
+  "Asynchronous JS (Promises, async/await)",
+  "Fetch API & JSON",
+  "Error Handling (try...catch)",
+  "ES6 Modules (import/export)",
+  "Local Storage"
+]
+        }
+    ],
+    [
+    {
+        "mainSubject": "intermediate web development"
+    },
+    {
+        "subject": "intermediate html",
+        "lessons": [
+            "Advanced Forms (Validation & Patterns)",
+            "HTML5 Canvas API",
+            "SVG Graphics & Implementation",
+            "Web Components (Custom Elements)",
+            "Shadow DOM Basics",
+            "Web Accessibility (ARIA & Roles)",
+            "Microformats & Schema.org",
+            "Progressive Web Apps (PWA) Manifest",
+            "Storage APIs (IndexedDB)",
+            "Security (CSP & Sanitization)"
+        ]
+    },
+    {
+        "subject": "intermediate css",
+        "lessons": [
+            "CSS Preprocessors (Sass/SCSS)",
+            "Advanced Flexbox (Alignment & Ordering)",
+            "CSS Grid (Areas & Implicit Grids)",
+            "CSS Architecture (BEM, SMACSS)",
+            "Responsive Images (srcset & picture)",
+            "Complex Animations (Keyframes & Bezier)",
+            "Advanced Selectors (Combinators & Logic)",
+            "Filters, Blend Modes & Backdrops",
+            "Container Queries",
+            "Utility-First CSS (Tailwind Concepts)"
+        ]
+    },
+    {
+        "subject": "intermediate javascript",
+        "lessons": [
+            "Functional Programming (Map, Filter, Reduce)",
+            "Object-Oriented JS (Classes & Prototypes)",
+            "Closure & Execution Context",
+            "The 'this' Keyword & Binding",
+            "Advanced Async (Parallel vs Sequential)",
+            "Regular Expressions (RegEx)",
+            "Recursion & Data Structures",
+            "API Design & Webhooks",
+            "State Management Concepts",
+            "Unit Testing (Jest/Vitest Basics)"
+        ]
+    }
+]
+
+ ] 
+}

@@ -1,0 +1,169 @@
+
+body{
+    background-color: rgba(28, 28, 122, 0.925);
+    font-family: arial;
+    margin: 0%;
+
+}
+
+#profile-section{
+    background-image: url(photos/download.jpg);
+    top: 30%;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-left: 16%;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 83%;
+    font-weight: 500;
+}
+.card{
+    background-color: rgba(0, 255, 255, 0.1);
+    position: absolute;
+    top: 30%;
+    display:flex;
+    flex-direction: column;
+    height: 50%;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 11px;
+    border-radius: 5px;
+    
+    font-family: arial;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(0, 255, 255, 0.526);
+}
+
+
+.picture{
+    width: 30%;
+    border-radius: 60%;
+    padding: 19px;
+
+}
+.nameTag{
+    font-size: 2em;
+    font-weight: 600;
+}
+.titleTag{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+h1{
+    color: rgba(253, 248, 248, 0.979);
+    font-weight: 600;
+}
+#top-container{
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0.526);
+    border-radius: 10px;
+    margin-left: 16%;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 83%;
+    font-weight: 500;
+}
+#inner-top-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#inner-top-container a{ 
+    margin:auto 7%;
+    color: black;
+    
+}
+#inner-top-container a:hover{
+    cursor: pointer;
+}
+#inner-top-container a:active{
+  color: rgba(0, 0, 0, 0.4);  
+}
+
+#side-menu{
+    background-color: rgba(0, 255, 255, 0.526); 
+    float: left;
+    position: fixed;
+    top: 0%;
+    height:100%;
+    width: 15%;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.744);
+}
+#side-menu p:hover{
+  cursor: pointer;
+}
+#side-menu p:active{
+  color: rgba(0, 0, 0, 0.353);
+}
+#inner-lower-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+#courses-c{
+   position: absolute;
+    top: 25%;
+    display:grid;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 51%;
+    border-radius: 5px;
+    font-family: arial;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+
+.course-cont h4{
+    color: rgb(128, 62, 62);
+
+}
+.course-cont div{
+    padding: 5% 6%;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(45, 209, 154, 0.377);
+}
+
+#side-menu div p{
+    margin: 2%;
+}
+#side-menu div h3{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 3px 3px;
+}
+#side-menu #sign{
+    margin-top: 20%;
+}
+#side-menu #socials{
+    position: absolute;
+    top: 30%;
+}
+#side-menu #footer{
+    top: 80%;
+    position: absolute;
+}
+#side-menu #pro{
+    position: absolute;
+    top: 55%;
+    background-color: rgba(253, 253, 5, 0.829);
+    border-radius: 10px;
+}
+#side-menu #pro span{
+    font-weight: 600;
+    color: rgba(240, 165, 5, 0.993);
+}

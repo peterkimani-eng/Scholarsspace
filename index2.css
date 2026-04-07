@@ -1,0 +1,143 @@
+#lessonscontainer{
+    position: absolute;
+    top: 6%;
+
+    overflow: hidden;
+    background: linear-gradient(135deg,white,rgba(240, 229, 239, 0.689));
+    border-radius: 10px;
+    margin-left: 16%;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    width: 88%;
+    height: 70vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 10%;
+    
+    
+}
+#h2s{
+    font-size: 1.3em;
+    color: black;
+}
+
+h3{
+    font-weight: 500;
+}
+#paragraphsctn{
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 2px;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+#progress-bar{
+    background-color: rgba(104, 103, 102, 0.404);
+    height: 15px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+}
+#progress-bar-2{
+    background-color: rgba(4, 199, 30, 0.589);
+    height: 15px;
+    border: none;
+    border-radius: 10px; 
+}
+#progress-bar-3{
+    background-color: rgba(7, 4, 199, 0.589);
+    height: 15px;
+    border: none;
+    border-radius: 10px; 
+}
+
+#classtogle{
+    font-size: 1.5em;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.301);
+    left: 90%;
+    border: none;
+    border-radius: 20px;
+}
+#classtogle:hover{
+cursor: pointer;
+background-color: rgba(243, 9, 9, 0.236);
+ border-radius: 20px;
+}
+
+#ansbtns{
+    display: flex;
+    flex-direction: column;
+   
+}
+#ansbtns button{
+    width: 80%;
+    font-size: 1.4em;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto ;
+    height: 20%;
+    border: solid 1px rgba(0, 0, 0, 0.308);
+    border-radius: 20px;
+    color: rgba(2, 2, 2, 0.534);
+    
+}
+.normalbtn{
+    width: 80%;
+    font-size: 1.4em;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto ;
+    height: 20%;
+    border: solid 1px rgba(0, 0, 0, 0.308);
+    border-radius: 20px;
+    color: rgba(2, 2, 2, 0.534);
+}
+#ansbtns button:hover{
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(17, 2, 2, 0.63);
+}
+
+.correctAns{
+    background-color: rgba(46, 221, 23, 0.726);
+}
+.wrongAns{
+    background-color: rgba(252, 4, 37, 0.61);
+}
+
+
+
+
+
+#ctrlbtns{
+    
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 90%;
+}
+#ctrlbtns :active{
+ background-color: rgba(175, 116, 231, 0.432);
+}
+#btn5{
+font-size: 1.5em;
+width: 10%;
+background-color:rgba(7, 7, 240, 0.048);  
+}
+#btn6{
+    width: 80%;
+    font-size: 1.5em;
+    background-color:rgba(7, 240, 221, 0.068);  
+}
+#btn7{
+  width: 10%;
+  font-size: 1.5em;
+  background-color: rgba(7, 7, 240, 0.048);  
+}
