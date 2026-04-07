@@ -350,7 +350,7 @@ function proceed(){
 function xpincrement(){
    if((xpchanged===false)&&(parseInt(width)===100)&&(marksInLesson>=0.5)){
           xp=xp+10;
-          parseint(constantXp)+=10;
+         constantXp= parseint(constantXp)+10;
           localStorage.setItem("savedxp",constantXp);
           console.log(xp);
           xpchanged=true;
