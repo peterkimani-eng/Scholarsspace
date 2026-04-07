@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scolar Space</title>
+    <meta name="description" content="Scholar Space - Your interactive learning platform for web development, SQL, and JavaScript courses. Track your progress, earn XP, and build streaks with interactive lessons and quizzes.">
+    <meta name="keywords" content="online courses, web development, SQL, JavaScript, learning platform, coding education, interactive lessons">
+    <meta name="author" content="Scholar Space">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Scholar Space - Learn Web Development & Programming">
+    <meta property="og:description" content="Interactive learning platform featuring web development, SQL, and JavaScript courses with progress tracking and gamification.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://scholarsspace.com">
+    <meta name="theme-color" content="#be1ea9">
+    <title>Scholar Space - Learn Web Development, SQL & JavaScript Online</title>
+    <link rel="canonical" href="https://scholarsspace.com/">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="index2.css">
     <link rel="stylesheet" href="ttt.css">
@@ -11,20 +21,20 @@
 <body id="bodyy">
     
     <div>
-        <div id="top-container">
+        <nav id="top-container" role="navigation" aria-label="Main navigation">
             
             <div id="inner-top-container">
                 <h1>Scholar Space 🎓📓</h1>
                 <p style="color: rgba(190, 30, 169, 0.938);">Home</p>
-                <a href="courses.html"><p>courses 📓</p></a>
-                <a href="profile.html"><p>profile🧑‍🎓</p></a>
+                <a href="courses.html" aria-label="View our courses"><p>courses 📓</p></a>
+                <a href="profile.html" aria-label="View your profile"><p>profile🧑‍🎓</p></a>
             </div>
             <div id="inner-lower-container">
                 <p id="xps">xp:</p>
                 <p>streak:</p>
             </div>
-        </div>
-        <div id="side-menu">
+        </nav>
+        <aside id="side-menu" role="complementary" aria-label="Secondary menu">
             <p>settings</p>
             <div id="sign">
                 <p>sign in</p>
@@ -40,85 +50,85 @@
              <div id="pro">
                 <p>switch to <span>pro</span></p>
             </div>
-            <div id="footer">
+            <footer id="footer">
                 <p>terms & conditions</p>
                 <p>copyright ©️</p>
-            </div>
-        </div>
-        <div id="mainContainer">
+            </footer>
+        </aside>
+        <main id="mainContainer" role="main">
           <!--  <h2 id="cources">Courses</h2> -->
-         <div id="courses">
-          <!-- <h2>courses</h2>
-              <div id="webDev">
-                 <p id="webDevP">Web development </p>
-                 <button id="drop-down-web">⬇️</button>
-                 <div id="lessons" class="coursesS">
-                    <ol>
-                        <li id="html1">Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                        
-                    </ol>
+          <section id="courses">
+           <!-- <h2>courses</h2>
+               <div id="webDev">
+                  <p id="webDevP">Web development </p>
+                  <button id="drop-down-web">⬇️</button>
+                  <div id="lessons" class="coursesS">
+                     <ol>
+                         <li id="html1">Html</li>
+                         <li>Css</li>
+                         <li>Javascript</li>
+                         
+                     </ol>
+                  </div>
+              </div> 
+              <div id="sql">
+                  <p >SQL intro </p>
+                  <button id="drop-down-sql">⬇️</button>
+              </div>
+              <div id="javascript">
+                  <p >javascript </p>
+                  <button id="drop-down-js">⬇️</button>
+              </div>
+             -->
+             
+          </section>
+          <article id="lessonscontainer" class="coursesS">
+             <div id="progress-bar" role="progressbar" aria-label="Lesson progress">
+                 <div id="progress-bar-2"></div>
+                 <div id="progress-bar-3"></div>
+             </div>
+             <button id="classtogle" aria-label="Close lesson">❌</button>
+             <div id="headingscontainer" >
+                <h3 id="h3">tags</h3>
+             </div>
+             <div id="paragraphsctn">
+                <p id="p1">HTML tags are the building blocks of web pages. They tell the browser how to display content</p>
+                <p id="p2">Most tags have an opening and a closing tag, like &lt;p&gt; and &lt;/p&gt</p>
+                <p id="p3">The &lt;body&gt; tag contains all the visible content of an HTML document</p>
+             </div>
+             <div id="imgsctn">
+               <img id="img1" src="" alt="Lesson illustration image 1">
+               <img id="img2" src="" alt="Lesson illustration image 2">
+             </div>
+             <div id="ansbtns">
+                 <h3 id="question">Select the correct paragraph element?</h3>
+                 <div id="ansbtnsC">
+                     
                  </div>
-             </div> 
-             <div id="sql">
-                 <p >SQL intro </p>
-                 <button id="drop-down-sql">⬇️</button>
+               <button id="btn1" class="ansbtns">coice a</button>
+               <button id="btn2"class="ansbtns">choice b</button>
+               <button id="btn3"class="ansbtns">choice c</button>
+               <button id="btn4"class="ansbtns">choice d</button>
              </div>
-             <div id="javascript">
-                 <p >javascript </p>
-                 <button id="drop-down-js">⬇️</button>
+             <div  id="ctrlbtns" >
+                 <button id="btn5" aria-label="Previous lesson">🔙</button>
+                 <button id="btn6">submit</button>
+                 <button id="btn7" aria-label="Next lesson">🔜</button>
              </div>
-            -->
+             
+             
+             
             
-         </div>
-         <div id="lessonscontainer" class="coursesS">
-            <div id="progress-bar">
-                <div id="progress-bar-2"></div>
-                <div id="progress-bar-3"></div>
-            </div>
-            <button id="classtogle">❌</button>
-            <div id="headingscontainer" >
-               <h3 id="h3">tags</h3>
-            </div>
-            <div id="paragraphsctn">
-               <p id="p1">HTML tags are the building blocks of web pages. They tell the browser how to display content</p>
-               <p id="p2">Most tags have an opening and a closing tag, like &lt;p&gt; and &lt;/p&gt</p>
-               <p id="p3">The &lt;body&gt; tag contains all the visible content of an HTML document</p>
-            </div>
-            <div id="imgsctn">
-              <img id="img1" src="" alt="">
-              <img id="img2" src="" alt="">
-            </div>
-            <div id="ansbtns">
-                <h3 id="question">Select the correct paragraph element?</h3>
-                <div id="ansbtnsC">
-                    
-                </div>
-              <button id="btn1" class="ansbtns">coice a</button>
-              <button id="btn2"class="ansbtns">choice b</button>
-              <button id="btn3"class="ansbtns">choice c</button>
-              <button id="btn4"class="ansbtns">choice d</button>
-            </div>
-            <div  id="ctrlbtns" >
-                <button id="btn5">🔙</button>
-                <button id="btn6">submit</button>
-                <button id="btn7">🔜</button>
-            </div>
-            
-            
-            
-           
 
-         </div>
-         <div id="resultscontainer" class="courcesS" class="resultsPage"></div>
-         <div id="popup" class="popup" >
-            <p>Make sure to chek up the courses page 👉 <br> & choose a course to add to home-page library <br> 👇.</p>
-            <button id="popupbtn">Ok</button>
-         </div>
-        </div>
+          </article>
+          <div id="resultscontainer" class="courcesS" class="resultsPage"></div>
+          <div id="popup" class="popup" role="dialog" aria-labelledby="popup-message">
+             <p id="popup-message">Make sure to chek up the courses page 👉 <br> & choose a course to add to home-page library <br> 👇.</p>
+             <button id="popupbtn">Ok</button>
+          </div>
+         </main>
 
-    </div>
+     </div>
 
 
     <script src="lessonspg.js"></script>
