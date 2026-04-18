@@ -268,6 +268,7 @@ function lessoncontrol(){
     let h3=data[clickedElement.textContent][index].h3;
     let p1=data[clickedElement.textContent][index].content1;
     let p2=data[clickedElement.textContent][index].content2;
+    let p3=data[clickedElement.textContent][index].content3;
     let q1=data[clickedElement.textContent][index].question;
     let a1=data[clickedElement.textContent][index].choice1;
     let a2=data[clickedElement.textContent][index].choice2;
@@ -277,6 +278,7 @@ function lessoncontrol(){
     h3s.textContent=h3;
     p1s.textContent=p1;
     p2s.textContent=p2;
+    p3s.textContent=p3;
     q1s.textContent=q1
     bt1.textContent=a1;
     btn2.textContent=a2;
